@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monteserrat;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+.contain{
+    width: 500px;
+    height: 400px;
+    /* text-align: center; */
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 25px;
+}
+.inp1{
+    border: none;
+   background-color: rgb(187, 187, 244);
+    width: 270px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid black;
+}
+
+.text button{
+    width: 300px;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #8e44ad;
+    font-size: 20px;
+    border: none;
+}
+.text button:hover{
+    background-color: rgb(244, 152, 167);
+    box-shadow: 0 0 25px rgb(244, 152, 167);
+    border: 2px solid white;
+}
+.date{
+   color: grey;
+}
+@media screen and (max-width: 768px) {
+   body{
+     height: 70vh;
+}
+    h1{
+       font-size: 30px;
+    }
+    .contain {
+        width: 80%;
+        height: auto;
+        margin: 10% auto;
+    }
+
+    .inp1 {
+        width: 90%;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .text button {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .date {
+        font-size: 16px;
+    }
+
+    .text button:hover {
+        box-shadow: 0 0 20px rgb(244, 152, 167);
+    }
+}
+@media screen and (max-width: 480px) {
+
+    h1{
+        font-size: 20px;
+     }
+    .contain {
+        width: 90%;
+        height: auto;
+        margin: 10% auto;
+    }
+
+    .inp1 {
+        width: 90%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .text button {
+        width: 90%;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .date {
+        font-size: 14px;
+    }
+
+    .text button:hover {
+        box-shadow: 0 0 15px rgb(244, 152, 167);
+    }
+}

@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>login page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monteserrat;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+.contain{
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    margin-left: 36%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.contain .text{
+position: relative;
+top: 7%;
+}
+.inp1{
+    border: none;
+    background-color: rgb(187, 187, 244);
+    border-bottom: 2px solid silver;
+    width: 270px;
+    font-size: 19px;
+    margin-top: 40px;
+    outline:none;
+    color:black;
+    border-radius: 8px;
+
+}
+.inp2{
+    border: none;
+    background-color: rgb(187, 187, 244);
+    border-bottom: 2px solid silver;
+    width: 270px;
+    font-size: 19px;
+    margin-top: 40px;
+    outline:none;
+    color:black;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+p{
+    font-size: 18px;
+}
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color:#8e44ad;
+    border-radius: 25px;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+button:hover{
+    border: 3px solid;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(244, 152, 167);
+    box-shadow: 0 0 25px rgb(244, 152, 167);
+}
+@media screen and (max-width: 768px) {
+    .contain {
+        width: 80%;
+        height: auto; 
+        margin: 10% auto; 
+    }
+
+    .contain .text {
+        top: 5%; 
+    }
+
+    .inp1,
+    .inp2 {
+        width: 90%; 
+        margin-top: 20px; 
+    }
+
+    p {
+        font-size: 16px; 
+    }
+
+    .text button {
+        width: 80%; 
+        height: 40px; 
+        font-size: 16px; 
+        margin-top: 20px;
+        margin-bottom: 10px; 
+    }
+
+    button:hover {
+        font-size: 18px; 
+        box-shadow: 0 0 20px rgb(244, 152, 167); 
+    }
+}
+@media screen and (max-width: 480px) {
+    .contain {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    .inp1 {
+        width: 90%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .text button {
+        width: 90%;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .date {
+        font-size: 14px;
+    }
+
+    .text button:hover {
+        box-shadow: 0 0 15px rgb(244, 152, 167);
+    }
+}
+
+    </style>
+    <body>
+        <div class="contain">
+            <div class="text">
+                <h1>login</h1>
+                <input class="inp1" type="text" placeholder="email">
+                <input class="inp2" type="password" placeholder="password">
+                <p>Forgot password?</p>
+                <button>login</button>
+                <p>Don't have an account? <span><a href="signup.html">signup</a></span></p>
+            </div>
+        </div>    
+
+    </body>
+</html>
